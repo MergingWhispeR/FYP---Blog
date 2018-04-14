@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	
+	
+  </head>
+  <body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Cayde's Stash</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Feed</a></li>       
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Profile <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+             	<li class="dropdown-header">Dropdown</li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Settings</a></li>
+              </ul>
+            </li>            
+            <li><a href="#joinus" data-toggle="modal">Join Us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+	</div>
+	
+	
+	
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Cayde's Stash</h1>
+			<p>A place for like minded artists!</p>
+			<a href="#" class="btn btn-primary">Join our group</a>
+			<a href="#" class="btn btn-success">Sit back and enjoy</a>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<a href="mergingwhisper.html" class="thumbnail">
+					<img src="img/mergprof.jpg" alt="mergingWhisper">
+					</a>
+				<h3>MergingWhispeR</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
+				<a href="mergingwhisper.html" class="btn btn-danger">View</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="thumbnail">
+					<img src="img/benprof.jpg" alt="plainBen">
+					</a>
+				<h3>Plain Ben</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
+				<a href="#" class="btn btn-danger">View</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="#" class="thumbnail">
+					<img src="img/error.png" alt="error">
+					</a>
+				<h3>Error</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc suscipit convallis nisl, eget rutrum lectus commodo at. Pellentesque mattis justo vel augue pretium euismod. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu turpis eros.</p>
+				<a href="#" class="btn btn-danger">View</a>
+			</div>
+		</div>
+	</div>	
+	
+	
+
+	
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    	<div class="container">
+    		<div class="navbar-text pull-left">
+    			<p>© 2018 Sandeep Kainth.</p>
+    		</div>
+    		<div class="navbar-text pull-right">
+    			<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+    			<a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+    		</div>
+    	</div>
+    </div>
+	
+
+	<div class="modal fade" id="joinus" role="dialog">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<form class="form-horizontal" role="form">
+    				<div class="modal-header">
+    					<h4>So you want to join <b>Cayde's Stash</b>?<h4>
+	    			</div>
+	    			<div class="modal-body">
+    					<div class="form-group">
+    						<label for="contact-name" class="col-sm-2 control-label">Name</label>
+    						<div class="col-sm-10">
+    							<input type="text" class="form-control" id="contact-name" placeholder="First & Last Name">
+    						</div>
+    					</div>
+						<div class="form-group">
+    						<label for="contact-name" class="col-sm-2 control-label">Username</label>
+    						<div class="col-sm-10">
+    							<input type="text" class="form-control" id="contact-username" placeholder="What you go by on the internet">
+    						</div>
+    					</div>
+    					<div class="form-group">
+    						<label for="contact-email" class="col-sm-2 control-label">Email</label>
+    						<div class="col-sm-10">
+    							<input type="email" class="form-control" id="contact-email" placeholder="example@domain.com">
+    						</div>
+    					</div>
+    					<div class="form-group">
+    						<label for="contact-message" class="col-sm-2 control-label">Message</label>
+    						<div class="col-sm-10">
+    							<textarea class="form-control" rows="4" placeholder="Tell us why you would like to join!"></textarea>
+    						</div>
+    					</div>
+	    			</div>
+	    			<div class="modal-footer">
+    					<a class="btn btn-default" data-dismiss="modal">Close</a>
+    					<button type="submit" class="btn btn-primary">Send</button>
+    				</div>
+    			</form>
+    		</div> 
+    	</div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
