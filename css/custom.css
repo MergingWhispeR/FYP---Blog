@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-brand {
 	color: #FFFFFF;
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 	color: #F5B041;
@@ -46,6 +47,15 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav > li > a:focus {
 	color: #FDF2E9;
 	background-color; transparent;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #AF601A;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #AF601A;
+	border-color: #AF601A;
 }
 	
 .btn-primary {
@@ -89,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
-.btn-default.active,
+
 .open .dropdown-toggle.btn-default {
 	color: #FFFFFF;
 	background-color: #F5B041;
@@ -124,7 +134,13 @@ h1, h2, h3, h4, h5, h6 {
 .thumbnail {
 	overflow: hidden;
 }
+
+.jumbotron {
+    color: inherit;
+    background-color: #FEF5E7;
+}
 	
-	
-	
-	
+a {
+    color: #FEF5E7;
+    text-decoration: none;
+}
