@@ -8,6 +8,11 @@ body {
 	padding-bottom: 100px;
 }
 
+
+.row {
+    padding-bottom: 15px;
+}
+
 p {
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -58,38 +63,6 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: #AF601A;
 }
 	
-.btn-primary {
-	background-color: #AF601A;
-	border-color: #AF601A;
-	color: #FFFFFF;
-}
-	
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-	color: #FFFFFF;
-	background-color: #F5B041;
-	border-color: #F5B041;
-}
-
-.btn-success {
-	background-color: #F8C471;
-	border-color: #F8C471;
-	color: #FFFFFF;
-}
-	
-.btn-success:hover,
-.btn-success:focus,
-.btn-success:active,
-.btn-success.active,
-.open .dropdown-toggle.btn-success {
-	color: #FFFFFF;
-	background-color: #F5B041;
-	border-color: #F5B041;
-}
-
 .btn-default {
 	background-color: #F8C471;
 	border-color: #F8C471;
@@ -99,28 +72,12 @@ h1, h2, h3, h4, h5, h6 {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
-
+.btn-default.active,
 .open .dropdown-toggle.btn-default {
 	color: #FFFFFF;
 	background-color: #F5B041;
 	border-color: #F5B041;
 }
-	
-.btn-danger {
-	background-color: #F5B041;
-	border-color: #F5B041;
-	color: #FFFFFF;
-}
-	
-.btn-danger:hover,
-.btn-danger:focus,
-.btn-danger:active,
-.btn-danger.active,
-.open .dropdown-toggle.btn-danger {
-	color: #FFFFFF;
-	background-color: #F8C471;
-	border-color: #F8C471;
-}	
 	
 .thumbnail img:hover {
 	transform: scale(1.1);
@@ -138,9 +95,4 @@ h1, h2, h3, h4, h5, h6 {
 .jumbotron {
     color: inherit;
     background-color: #FEF5E7;
-}
-	
-a {
-    color: #FEF5E7;
-    text-decoration: none;
 }
