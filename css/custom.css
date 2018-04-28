@@ -17,6 +17,14 @@ p {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+	color: #AF601A;
+}
+
+a:hover {
+    color: #E67E22;
+	}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -79,6 +87,22 @@ h1, h2, h3, h4, h5, h6 {
 	border-color: #F5B041;
 }
 
+.btn-primary {
+	background-color: #249fa5;
+	border-color: #249fa5;
+	color: #FFFFFF;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+	color: #FFFFFF;
+	background-color: #5cb0ce;
+	border-color: #5cb0ce;
+}
+
 .thumbnail img:hover {
 	transform: scale(1.1);
 }
@@ -95,4 +119,13 @@ h1, h2, h3, h4, h5, h6 {
 .jumbotron {
     color: inherit;
     background-color: #FEF5E7;
+}
+
+.alert{
+text-align: center;
+padding: 10px;
+background: #79C879;
+color: #FFFFFF;
+margin-bottom:10px;
+display: none;
 }

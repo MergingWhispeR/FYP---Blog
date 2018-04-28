@@ -23,9 +23,15 @@ function submitForm(e){
 
   saveMessage(name, username, email, message);
 
+  document.querySelector('.alert').style.display = 'block';
 
+  setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+  },3000);
+
+
+document.getElementById('contactForm').reset();
 }
-
 function getInputVal(id){
   return document.getElementById(id).value;
 }
